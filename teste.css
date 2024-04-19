@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: azure;
+}
+
+body {
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border: 20px solid tan;
+    width: 750px;
+    height: 563px;
+    position: relative;
+   
+}
+
+.logo {
+    color: tan;
+}
+
+img{
+    margin-top: 10px;
+}
+
+.marquee {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: tan;
+    font-size: 48px;
+    margin-top: 0px;
+}       
+.assignment {
+    margin: 20px;
+}
+.person {
+    border-bottom: 1px solid black;
+    font-size: 32px;
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 100%;
+}
+.reason {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.signature-left {
+    float: left;
+    margin-left: 40px;
+}
+
+.signature-right {
+    float: right; 
+    margin-right: 40px;
+}
+
+
+.signature-left, .signature-right {
+    margin-top: 20px; 
+    display: inline-block;
+    vertical-align: top;
+}
+
+.signature-left hr, .signature-right hr {
+    border: none;
+    border-top: 2px solid black; 
+    width: 100%;
+}
+
+.signature-left span, .signature-right span {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
